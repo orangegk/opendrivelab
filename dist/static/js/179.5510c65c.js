@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunktest_vue"]=self["webpackChunktest_vue"]||[]).push([[179],{63179:function(e,u,t){t.r(u),t.d(u,{default:function(){return a}});var n=function(){var e=this,u=e._self._c;return u("div",[e._v(" research ")])},r=[],s={},l=s,c=t(1001),f=(0,c.Z)(l,n,r,!1,null,null,null),a=f.exports}}]);
+//# sourceMappingURL=179.5510c65c.js.map
