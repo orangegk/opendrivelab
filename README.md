@@ -19,6 +19,6 @@ npm run build
 ```
 npm run lint
 ```
-链接：https://orangegk.github.io/image_annotation/dist/#/
+链接：https://orangegk.github.io/opendrivelab/
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
