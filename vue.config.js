@@ -1,13 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true,
-  lintOnSave: false,
-  // assetsPublicPath: './',
-  // publicPath:'../../',
-  publicPath: './',
-})
-
-module.exports = {
   // 选项
   //  基本路径
   publicPath: "./",
@@ -19,9 +12,20 @@ module.exports = {
   indexPath: "index.html",
   //文件名哈希
   filenameHashing: true,
-  lintOnSave: true,
+  lintOnSave: false,
   //  是否使用带有浏览器内编译器的完整构建版本
   runtimeCompiler: false,
   //  babel-loader 默认会跳过 node_modules 依赖。
-}
+
+  // module: {
+  //   rules: [
+  //     // ...
+  //     {
+  //       test: /\.scss$/,
+  //       loaders: ['style','css','sass']
+  //     }
+  //   ]
+  // }
+})
+
 
