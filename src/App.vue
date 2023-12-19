@@ -1,10 +1,6 @@
 <template>
   <div id="app" style="position: relative;width: 100%;height: 100%;">
     <Header></Header>
-    <!-- <nav>
-      <router-link to="/">Home</router-link> ||
-      <router-link to="/about">About</router-link>
-    </nav> -->
     <router-view/>
     <div style="position: absolute;bottom:0px;width: 100%;">
       <Footer></Footer>

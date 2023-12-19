@@ -19,7 +19,7 @@
 export default {};
 </script>
 
-<!-- <style lang="scss" scoped>
+<style lang="scss" scoped>
 .footer {
   display: flex;
   flex-direction: column;
@@ -32,4 +32,7 @@ export default {};
   font-family: Verdana, sans-serif;
   color: grey;
 }
-</style> -->
+::v-deep .ant-divider {
+  background: grey;
+}
+</style>

@@ -17,17 +17,39 @@ const routes = [
   },
   {
     path: '/research',
-    name: 'team',
+    name: 'research',
     component: () => import('@/views/Research.vue')
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import('../views/AboutView.vue')
+    path: '/AutonomousDrivingForum',
+    name: 'AutonomousDrivingForum',
+    component: () => import('@/views/event/AutonomousDrivingForum.vue')
   },
+  {
+    path: '/ADChallenge',
+    name: 'ADChallenge',
+    component: () => import('@/views/event/ADChallenge.vue')
+  },
+  {
+    path: '/E2EADWorkshop',
+    name: 'E2EADWorkshop',
+    component: () => import('@/views/event/E2EADWorkshop.vue')
+  },
+  {
+    path: '/SR4ADWorkshop',
+    name: 'SR4ADWorkshop',
+    component: () => import('@/views/event/SR4ADWorkshop.vue')
+  },
+  {
+    path: '/Publication',
+    name: 'Publication',
+    component: () => import('@/views/Publication.vue')
+  },
+  // {
+  //   path: '/about',
+  //   name: 'about',
+  //   component: () => import('../views/AboutView.vue')
+  // },
 ]
 
 const router = new VueRouter({

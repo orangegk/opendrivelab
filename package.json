@@ -1,5 +1,5 @@
 {
-  "name": "test_vue",
+  "name": "opendrivelab",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,9 +24,8 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "node-sass": "^9.0.0",
-    "sass-loader": "^13.3.2",
-    "style-loader": "^3.3.3",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
     "vue-template-compiler": "^2.6.14"
   }
 }
