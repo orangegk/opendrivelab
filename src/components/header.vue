@@ -81,15 +81,17 @@
       >
     </a-menu-item>
   </a-menu>
+  <!-- <CarouselVue></CarouselVue> -->
 </template>
 
 <script>
 export default {
   data() {
     return {
-      current: ["mail"],
+      current: ["home"],
     };
   },
+
 };
 </script>
 
