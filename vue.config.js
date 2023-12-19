@@ -23,7 +23,4 @@ module.exports = {
   //  是否使用带有浏览器内编译器的完整构建版本
   runtimeCompiler: false,
   //  babel-loader 默认会跳过 node_modules 依赖。
-  rules: {
-    'vue/multi-word-component-names': 'off',
-  },
 }
