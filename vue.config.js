@@ -17,15 +17,22 @@ module.exports = defineConfig({
   runtimeCompiler: false,
   //  babel-loader 默认会跳过 node_modules 依赖。
 
-  // module: {
-  //   rules: [
-  //     // ...
-  //     {
-  //       test: /\.scss$/,
-  //       loaders: ['style','css','sass']
-  //     }
-  //   ]
-  // }
+  module: {
+    rules: [
+      // ... 其他规则
+      {
+        test: /\.scss$/,
+        use: [
+          // 将 JS 字符串生成为 style 节点
+          'style-loader',
+          // 将 CSS 转化成 CommonJS 模块
+          'css-loader',
+          // 将 Sass 编译成 CSS
+          'sass-loader',
+        ],
+      },
+    ],
+  },
 })
 
 

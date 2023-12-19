@@ -29,7 +29,7 @@ export default {};
   height: 100px;
   background-color: #252525;
   font-size: 14px;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: Verdana, sans-serif;
   color: grey;
 }
 </style>
