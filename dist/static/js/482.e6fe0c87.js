@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunktest_vue"]=self["webpackChunktest_vue"]||[]).push([[482],{35482:function(t,e,u){u.r(e),u.d(e,{default:function(){return i}});var n=function(){var t=this;t._self._c;return t._m(0)},r=[function(){var t=this,e=t._self._c;return e("div",[e("h1",[t._v("team")])])}],s={},l=s,c=u(1001),f=(0,c.Z)(l,n,r,!1,null,null,null),i=f.exports}}]);
-//# sourceMappingURL=482.e6fe0c87.js.map
