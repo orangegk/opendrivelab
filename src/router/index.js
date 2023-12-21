@@ -55,8 +55,8 @@ const routes = [
 const router = new VueRouter({
   // mode: 'hash',
   mode: 'history',
-  // base: process.env.BASE_URL,
-  base: '/opendrivelab/',
+  base: process.env.BASE_URL,
+  // base: '/opendrivelab/',
   routes
 })
 
