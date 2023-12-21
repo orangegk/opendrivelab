@@ -19,6 +19,9 @@
           <div style="margin-top: 10px">
             我们正在招募 2024年 直博/普博，欢迎垂询！
           </div>
+          <div style="margin-top: 10px">
+            我们正在招募 2024年 直博/普博，欢迎垂询！
+          </div>
         </a-descriptions-item>
         <!-- <a-descriptions-item span="3">
           我们正在招募 2024年 直博/普博，欢迎垂询！
