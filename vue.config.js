@@ -1,17 +1,18 @@
-// const { defineConfig } = require('@vue/cli-service')
-// module.exports = defineConfig({
-//   transpileDependencies: true,
-//   lintOnSave: false,
-//   // assetsPublicPath: './',
-//   // publicPath:'../../',
-//   publicPath: './',
-// })
+const { defineConfig } = require('@vue/cli-service')
+module.exports = defineConfig({
+  transpileDependencies: true,
+  lintOnSave: false,
+  // assetsPublicPath: './',
+  // publicPath:'../../',
+  publicPath: './',
+})
 
 module.exports = {
   // 选项
   //  基本路径
   // publicPath: "/opendrivelab/",
   publicPath: "./",
+  // publicPath: "/",
   //  构建时的输出目录
   outputDir: "dist",
   //  放置静态资源的目录
