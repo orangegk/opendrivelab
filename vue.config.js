@@ -10,8 +10,8 @@
 module.exports = {
   // 选项
   //  基本路径
-  publicPath: "/opendrivelab/",
-  // publicPath: "./",
+  // publicPath: "/opendrivelab/",
+  publicPath: "./",
   //  构建时的输出目录
   outputDir: "dist",
   //  放置静态资源的目录
