@@ -1,11 +1,11 @@
-const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
-  transpileDependencies: true,
-  lintOnSave: false,
-  // assetsPublicPath: './',
-  // publicPath:'../../',
-  publicPath: './',
-})
+// const { defineConfig } = require('@vue/cli-service')
+// module.exports = defineConfig({
+//   transpileDependencies: true,
+//   lintOnSave: false,
+//   // assetsPublicPath: './',
+//   // publicPath:'../../',
+//   publicPath: './',
+// })
 
 module.exports = {
   // 选项
