@@ -107,13 +107,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// .logo {
+/* // .logo {
 //   width: 30px;
 //   height: 31px;
 //   background: rgba(255, 255, 255, 0.2);
 //   margin: 16px 28px 16px 0;
 //   float: left;
-// }
+// } */
 .layout-header{
   display: flex;
   justify-content: space-between;
