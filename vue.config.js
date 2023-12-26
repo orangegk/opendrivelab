@@ -14,7 +14,7 @@ module.exports = {
   publicPath: "./",
   // publicPath: "/",
   //  构建时的输出目录
-  outputDir: "dist",
+  outputDir: "docs",
   //  放置静态资源的目录
   assetsDir: "static",
   //  html 的输出路径
@@ -25,7 +25,4 @@ module.exports = {
   //  是否使用带有浏览器内编译器的完整构建版本
   runtimeCompiler: false,
   //  babel-loader 默认会跳过 node_modules 依赖。
-  build: {
-    outDir: "docs"
-  }
 }
