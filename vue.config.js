@@ -4,14 +4,14 @@ module.exports = defineConfig({
   lintOnSave: false,
   // assetsPublicPath: './',
   // publicPath:'../../',
-  publicPath: './',
+  // publicPath: './',
 })
 
 module.exports = {
   // 选项
   //  基本路径
-  // publicPath: "/opendrivelab/",
-  publicPath: "./",
+  publicPath: "/opendrivelab/",
+  // publicPath: "./",
   // publicPath: "/",
   //  构建时的输出目录
   outputDir: "docs",
